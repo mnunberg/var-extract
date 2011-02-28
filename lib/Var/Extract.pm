@@ -5,7 +5,7 @@ use PadWalker qw(var_name);
 
 use base qw(Exporter);
 our @EXPORT_OK = qw(vars_from_hash vars_from_getters);
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub vars_from_hash {
 	my $h = shift;
